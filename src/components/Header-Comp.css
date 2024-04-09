@@ -1,0 +1,111 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+  }
+  
+  .search-bar button {
+    padding: 8px 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-actions a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .hero {
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .featured-product {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featured-product img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .featured-product h3 {
+    margin-bottom: 10px;
+  }
+  
+  .featured-product p {
+    margin-bottom: 10px;
+  }
+  
+  .featured-product button {
+    padding: 8px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .product-list {
+      flex-wrap: wrap;
+    }
+    
+    .featured-product {
+      width: 45%;
+      margin-bottom: 20px;
+    }
+  }
+  
